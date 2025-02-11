@@ -38,6 +38,7 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
+  
 }
 
 h1 {
@@ -97,7 +98,7 @@ a {
   right: 0;
   bottom: 0;
   object-fit: cover;
-  filter: brightness(60%);
+  filter: brightness(50%);
 }
 
 header video {
@@ -732,7 +733,7 @@ body:has(input:checked) {
 }
 
 body:has(input:checked) .header-img {
-  filter: brightness(30%);
+  filter: brightness(40%);
 }
 
 body:has(input:checked) header video {
